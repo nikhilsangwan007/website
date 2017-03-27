@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+}
+span { 
+	font-size: 10em;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+#dot1{
+	color: #E0F7FA;
+}
+#dot2{
+	color: #4DD0E1;
+}
+#dot3{
+	color: #00ACC1;
+}
+.mainContainer {
+	width: 90%;
+	margin: auto;
+}
+.dots {
+	display: block;
+	font-size: 8em;
+	color: red;
+}
+.headerContainer {
+	margin-top: 10%;
+}
+.welcomeText {
+	color: #5C6BC0;
+	font-family: "Montserrat", sans-serif;
+	font-size: 5em;
+	font-weight: 50;
+	white-space: nowrap;
+	width: 0px;
+}
+.name {
+	color: #5C6BC0;
+	display: none;
+	margin-top: 0px;
+	margin-bottom:  10px;
+	font-size: 4em;
+	font-family: "fantasy", sans-serif;
+	text-shadow: 4px 4px 10px;
+	white-space: nowrap;
+	width: 0px;
+}
+.tagLine{
+	color: #5C6BC0;
+	display: none;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	font-size: 2.5em;
+	font-family: "fantasy", sans-serif;
+	text-shadow: 4px 4px 10px;
+	white-space: nowrap;
+	width: 0px;
+
+}
+.aboutContainer {
+	width: 80%;
+	display: none;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 50;
+}
+.aboutContainer p {
+	color: #757575;
+	font-size: 1.3em;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+.show {
+	display: block;
+	/*white-space: pre-wrap;*/
+}
